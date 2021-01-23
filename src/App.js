@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Blog from './Components/Blog/Blog';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Menu from './Components/Menu/Menu';
+import Store from './Components/Store/Store';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <div className="app__background">
+        <img className="app__background__image" src="http://file.hstatic.net/1000075078/file/1120-tch-p1_1920x768_b2b736f503654e41ae04b686dea893bc_master.jpg" alt="background"/>
+        <div className="app__text">
+          <h1>KÉO XUỐNG</h1>
+          <div className="mouse-run"/>
+        </div>
+      </div>
+      <Menu/>
+      <Blog/>
+      <Store/>
+      <Footer/>
     </div>
   );
 }
