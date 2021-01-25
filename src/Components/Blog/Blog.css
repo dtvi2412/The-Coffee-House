@@ -212,3 +212,12 @@
 .blog__card__text button:hover{
     color:orange;
 }
+@media only screen and (max-width:800px){
+    .blog__card__content{
+        flex-direction: column;
+    }
+ 
+    .blog__card:not(:first-child){
+        margin-left:0px;
+    }
+}

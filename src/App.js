@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Menu from './Components/Menu/Menu';
 import Store from './Components/Store/Store';
-
+import MotorcycleIcon from '@material-ui/icons/Motorcycle';
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
       <Blog/>
       <Store/>
       <Footer/>
+      <div className="order"><MotorcycleIcon/></div>
     </div>
   );
 }

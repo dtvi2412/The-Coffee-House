@@ -89,3 +89,19 @@ font-size:1.2rem;
     left:0%;
     transform:translate(0%,-50%);
 }
+@media only screen and (max-width:875px){
+    .footer__top{
+        flex-direction: column;
+    }
+    .footer__about ul li a img {
+        width: 30%;
+    }
+}
+@media only screen and (max-width:550px){
+    .footer__bottom p{
+        font-size:0.8rem;
+    }
+    .footer__bottom__text h2{
+        font-size:0.7rem;
+    }
+}
