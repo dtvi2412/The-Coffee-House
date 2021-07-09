@@ -14,17 +14,17 @@ function Menu() {
     {
       id: 1,
       image:
-        '//product.hstatic.net/1000075078/product/macca_d56d5ab8dde4455aa7f19d29b5fff763_large.jpg',
-      name: 'TRÀ SỮA MẮC CA TRÂN CHÂU TRẮNG',
-      price: 45000,
+        '//product.hstatic.net/1000075078/product/cafe-sua-da_9073dfe2143d428a91a370e79df77e49_large.jpg',
+      name: 'CÀ PHÊ SỮA',
+      price: 32000,
       selling: true,
     },
     {
       id: 2,
       image:
-        '//product.hstatic.net/1000075078/product/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg',
-      name: 'TRÀ ĐÀO CAM SÀ',
-      price: 45000,
+        '//product.hstatic.net/1000075078/product/ca_phe_goi_the_coffee_house_rich_finish_cc60d3ae46b94696b12856503529b71c_large.jpg',
+      name: 'Cà Phê Rich Finish - Gu Đậm Tinh Tế',
+      price: 90000,
       selling: true,
     },
     {
@@ -38,17 +38,17 @@ function Menu() {
     {
       id: 4,
       image:
-        '//product.hstatic.net/1000075078/product/espressonong_f60fc6f25baa404c8a8bfc40c396f27e_large.jpg',
-      name: 'ESPRESSO',
-      price: 35000,
+        '//product.hstatic.net/1000075078/product/ca_phe_goi_the_coffee_house_huong_thom_dinh_cao_peak_flavour_c545070f1d654cc7b3256ae145f184a7_large.jpg',
+      name: 'Cà phê Peak Flavor - Hương Thơm Đỉnh Cao',
+      price: 90000,
       selling: false,
     },
     {
       id: 5,
       image:
-        '//product.hstatic.net/1000075078/product/mocha_da_a2913936f9d84d07b63ac1ddf5dd2d0f_large.jpg',
-      name: 'MOCHA',
-      price: 49000,
+        '//product.hstatic.net/1000075078/product/ca_phe_lon_the_coffee_hous_d0fb16a38de14dafbb3fb52ff91c9e20_large.jpg',
+      name: 'Combo 4 Lon Cà Phê Sữa Đá',
+      price: 56000,
       selling: false,
     },
   ];
